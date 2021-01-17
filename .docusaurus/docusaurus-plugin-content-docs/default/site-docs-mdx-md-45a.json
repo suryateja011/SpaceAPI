@@ -1,0 +1,17 @@
+{
+  "unversionedId": "mdx",
+  "id": "mdx",
+  "isDocsHomePage": false,
+  "title": "About",
+  "description": "Who am I? I am Ironman!😂",
+  "source": "@site/docs\\mdx.md",
+  "slug": "/mdx",
+  "permalink": "/docs/mdx",
+  "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/mdx.md",
+  "version": "current",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Planets",
+    "permalink": "/docs/doc3"
+  }
+}

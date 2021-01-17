@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://spaceapi.tech/blog</id>
+    <title>SpaceAPI Blog</title>
+    <updated>2021-01-13T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://spaceapi.tech/blog"/>
+    <subtitle>SpaceAPI Blog</subtitle>
+    <icon>https://spaceapi.tech/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://spaceapi.tech/blog/welcome"/>
+        <updated>2021-01-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SpaceAPI is an API to retrieve Information Regarding the Planets. A complete list of all crewed spaceflights, with details on each mission’s accomplishments and crew, is available in the section of the titular "SpaceAPI".]]></summary>
+    </entry>
+</feed>

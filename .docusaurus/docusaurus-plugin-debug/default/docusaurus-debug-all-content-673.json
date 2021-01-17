@@ -1,0 +1,208 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "D:\\SpaceAPI\\sidebars.js",
+          "docsDirPath": "D:\\SpaceAPI\\docs",
+          "docsDirPathLocalized": "D:\\SpaceAPI\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "mainDocId": "doc1",
+          "sidebars": {
+            "someSidebar": [
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Getting Started",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "doc1"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "doc2"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "doc3"
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "About",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "mdx"
+                  }
+                ]
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/": "someSidebar",
+            "/docs/doc2": "someSidebar",
+            "/docs/doc3": "someSidebar",
+            "/docs/mdx": "someSidebar"
+          },
+          "docs": [
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "isDocsHomePage": false,
+              "title": "Introduction",
+              "description": "Inspired by Final-Space-API",
+              "source": "@site/docs\\doc1.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/doc1.md",
+              "version": "current",
+              "sidebar_label": "Introduction",
+              "sidebar": "someSidebar",
+              "next": {
+                "title": "Quote",
+                "permalink": "/docs/doc2"
+              }
+            },
+            {
+              "unversionedId": "doc2",
+              "id": "doc2",
+              "isDocsHomePage": false,
+              "title": "Quote",
+              "description": "This is the documentation for the /quote endpoint. There are currently 51 quotes sorted by id.",
+              "source": "@site/docs\\doc2.md",
+              "slug": "/doc2",
+              "permalink": "/docs/doc2",
+              "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/doc2.md",
+              "version": "current",
+              "sidebar_label": "Quote",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "Planets",
+                "permalink": "/docs/doc3"
+              }
+            },
+            {
+              "unversionedId": "doc3",
+              "id": "doc3",
+              "isDocsHomePage": false,
+              "title": "Planets",
+              "description": "Base url//spaceapi.tech/api/planets",
+              "source": "@site/docs\\doc3.md",
+              "slug": "/doc3",
+              "permalink": "/docs/doc3",
+              "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/doc3.md",
+              "version": "current",
+              "sidebar_label": "Planets",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Quote",
+                "permalink": "/docs/doc2"
+              },
+              "next": {
+                "title": "About",
+                "permalink": "/docs/mdx"
+              }
+            },
+            {
+              "unversionedId": "mdx",
+              "id": "mdx",
+              "isDocsHomePage": false,
+              "title": "About",
+              "description": "Who am I? I am Ironman!😂",
+              "source": "@site/docs\\mdx.md",
+              "slug": "/mdx",
+              "permalink": "/docs/mdx",
+              "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/mdx.md",
+              "version": "current",
+              "sidebar": "someSidebar",
+              "previous": {
+                "title": "Planets",
+                "permalink": "/docs/doc3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "welcome",
+          "metadata": {
+            "permalink": "/blog/welcome",
+            "editUrl": "https://github.com/suryateja011/SpaceAPI/blog/2021-01-13-welcome.md",
+            "source": "@site/blog\\2021-01-13-welcome.md",
+            "description": "SpaceAPI is an API to retrieve Information Regarding the Planets. A complete list of all crewed spaceflights, with details on each mission’s accomplishments and crew, is available in the section of the titular \"SpaceAPI\".",
+            "date": "2021-01-13T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "Welcome",
+                "permalink": "/blog/tags/welcome"
+              }
+            ],
+            "title": "Welcome",
+            "readingTime": 0.3,
+            "truncated": false
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "welcome"
+          ]
+        }
+      ],
+      "blogTags": {
+        "welcome": {
+          "name": "welcome",
+          "items": [
+            "welcome"
+          ],
+          "permalink": "/blog/tags/welcome"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src\\pages\\index.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

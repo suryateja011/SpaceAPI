@@ -1,0 +1,18 @@
+{
+  "unversionedId": "doc1",
+  "id": "doc1",
+  "isDocsHomePage": false,
+  "title": "Introduction",
+  "description": "Inspired by Final-Space-API",
+  "source": "@site/docs\\doc1.md",
+  "slug": "/",
+  "permalink": "/docs/",
+  "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/doc1.md",
+  "version": "current",
+  "sidebar_label": "Introduction",
+  "sidebar": "someSidebar",
+  "next": {
+    "title": "Quote",
+    "permalink": "/docs/doc2"
+  }
+}

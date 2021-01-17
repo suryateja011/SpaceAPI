@@ -1,0 +1,22 @@
+{
+  "unversionedId": "doc2",
+  "id": "doc2",
+  "isDocsHomePage": false,
+  "title": "Quote",
+  "description": "This is the documentation for the /quote endpoint. There are currently 51 quotes sorted by id.",
+  "source": "@site/docs\\doc2.md",
+  "slug": "/doc2",
+  "permalink": "/docs/doc2",
+  "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/doc2.md",
+  "version": "current",
+  "sidebar_label": "Quote",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Planets",
+    "permalink": "/docs/doc3"
+  }
+}

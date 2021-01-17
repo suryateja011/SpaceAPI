@@ -1,0 +1,16 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/suryateja011/SpaceAPI/blog/2021-01-13-welcome.md",
+  "source": "@site/blog\\2021-01-13-welcome.md",
+  "description": "SpaceAPI is an API to retrieve Information Regarding the Planets. A complete list of all crewed spaceflights, with details on each mission’s accomplishments and crew, is available in the section of the titular \"SpaceAPI\".",
+  "date": "2021-01-13T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "Welcome",
+      "permalink": "/blog/tags/welcome"
+    }
+  ],
+  "title": "Welcome",
+  "readingTime": 0.3,
+  "truncated": false
+}

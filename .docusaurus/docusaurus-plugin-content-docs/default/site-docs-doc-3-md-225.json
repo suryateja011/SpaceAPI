@@ -1,0 +1,22 @@
+{
+  "unversionedId": "doc3",
+  "id": "doc3",
+  "isDocsHomePage": false,
+  "title": "Planets",
+  "description": "Base url//spaceapi.tech/api/planets",
+  "source": "@site/docs\\doc3.md",
+  "slug": "/doc3",
+  "permalink": "/docs/doc3",
+  "editUrl": "https://github.com/suryateja011/SpaceAPI/docs/doc3.md",
+  "version": "current",
+  "sidebar_label": "Planets",
+  "sidebar": "someSidebar",
+  "previous": {
+    "title": "Quote",
+    "permalink": "/docs/doc2"
+  },
+  "next": {
+    "title": "About",
+    "permalink": "/docs/mdx"
+  }
+}
