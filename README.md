@@ -25,6 +25,7 @@ git clone https://github.com/suryateja011/SpaceAPI.git
  ```
  
  This will start the development server at [http://localhost:8000](http://localhost:8000).
+ 
  **Note :** If `build` folder doen't exist you will see an error at the baseURL i.e. `/`. Create the `build` folder to fix this issue.
  
  ## License
