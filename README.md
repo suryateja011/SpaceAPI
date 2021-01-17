@@ -2,7 +2,7 @@
 
 ## Installation ⭐
 
-First, Clone this repo. Both the frontend and the backend need to be installed seperately.
+First, Clone this repo 🔥✨.
 ```bash
 git clone https://github.com/suryateja011/SpaceAPI.git
 ```
@@ -15,7 +15,7 @@ git clone https://github.com/suryateja011/SpaceAPI.git
  It is important that SpaceAPI is installed first and a `build` directory is created. 
  
  
- ## Starting the Development Server
+ ## Starting the Development Server 🚀💥
  
  Run the following command in the SpaceAPI directory to start the development server at `PORT=8000` by default.
  
@@ -28,5 +28,5 @@ git clone https://github.com/suryateja011/SpaceAPI.git
  
  **Note :** If `build` folder doen't exist you will see an error at the baseURL i.e. `/`. Create the `build` folder to fix this issue.
  
- ## License
+ ## License 🚨
  This API is open source and uses a [BSD license](/LICENSE).
